@@ -14,7 +14,7 @@ from time import sleep
 
 # setup osc connection
 OSC_HOST = "127.0.0.1"
-OSC_PORT = 8002
+OSC_PORT = 57120
 OSC_CLIENT = OSCClient(OSC_HOST, OSC_PORT)
 
 def send_osc(list_data):
@@ -64,7 +64,7 @@ while (True):
         i = i+1
     else: 
         i = 0
-    sleep(0.1)
+    sleep(0.5)
 
         # aa = buff_m[freq_index]
 println("[-_-] exit status: 0")
